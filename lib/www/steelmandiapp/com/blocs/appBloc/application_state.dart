@@ -1,0 +1,8 @@
+enum ApplicationState {
+  INITIAL,
+  NOT_APPROVED,
+  APPROVED,
+  NOT_FOUND,
+  LOGGED_OUT,
+  RESET_PASSWORD
+}

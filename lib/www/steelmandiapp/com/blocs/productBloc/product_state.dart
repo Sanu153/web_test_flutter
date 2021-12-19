@@ -1,0 +1,1 @@
+enum ProductState { INITIAL, LOADER, FAILED, ERROR, SUCCESS }

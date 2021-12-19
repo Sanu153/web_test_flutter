@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "230889034575",
+    "firebase_url": "https://steelmandi-notification.firebaseio.com",
+    "project_id": "steelmandi-notification",
+    "storage_bucket": "steelmandi-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230889034575:android:b0a86fbe2eca9b5e36eb3a",
+        "android_client_info": {
+          "package_name": "com.steelmandi.www.steelmandi_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230889034575-72p65ivk1iio42n81pcnajn8bi55l757.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYAxBX3aOPj94hf-Qn1iD5AyL5aJQfEJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230889034575-72p65ivk1iio42n81pcnajn8bi55l757.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

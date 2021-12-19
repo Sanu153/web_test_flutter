@@ -1,0 +1,22 @@
+enum Footer { GRAPH, SETTINGS, NOTIFICATIONS, INFO }
+enum SidebarIcon { PROFILE, SETTINGS, NOTIFICATIONS, INFO }
+
+enum ActionState {
+  INITIAL,
+  LOADER,
+  FAILED,
+  ERROR,
+  SUCCESS,
+  PRODUCT_PREFER,
+  NOT_APPROVE,
+  APPROVE
+}
+enum ChartType {
+  LINE_CHART,
+  CANDLESTICK,
+  LINE_SERIES,
+  AREA_CHART,
+  AREA_STACKED_CHART
+}
+
+enum NegotiationAction { APPROVE, REJECT }

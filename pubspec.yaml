@@ -1,0 +1,77 @@
+name: steelmandi_app
+description: A new Trading application.
+
+version: 1.0.1+16
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  rxdart: ^0.22.1
+  carousel_pro: ^1.0.0
+  sqflite:
+  path_provider:
+  intl:
+  build_runner:
+  json_serializable:
+  http:
+  font_awesome_flutter:
+  flutter_slidable:
+  email_validator: ^1.0.0
+  flutter_spinkit:
+  shared_preferences:
+  flutter_multiselect: ^0.4.0
+  pin_code_text_field: ^1.4.0
+
+  syncfusion_flutter_charts: ^18.1.56
+  syncfusion_flutter_pdf: ^18.1.59-beta
+  pdf: ^1.9.0
+  printing: ^3.5.0
+  open_file: ^3.0.1
+  permission_handler: ^5.0.1+1
+
+  flutter_svg: ^0.15.0
+  browser_launcher: 0.1.5
+  url_launcher: ^5.2.5
+  query_params: ^0.6.1
+  action_cable: ^0.1.5
+  firebase_messaging: ^6.0.9
+  flutter_launcher_icons: ^0.7.4
+  flutter_local_notifications: ^1.1.3
+  flutter_dash:
+  image_picker: ^0.6.7+2
+  dio: ^3.0.9
+  package_info: ^0.4.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/image/SM_logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/SM_logo.png
+    - assets/image/moon_error.png
+    - assets/image/not_found.png
+    - assets/image/default_user.png
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
